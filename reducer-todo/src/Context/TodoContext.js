@@ -8,7 +8,7 @@ export const TodoProvider = props => {
   const [todos, dispatch] = useReducer(reducer, initialState);
 
   return (
-    <TodoContext.Provider value={[todos, dispatch]}>
+    <TodoContext.Provider value={{ todos, dispatch }}>
       {props.children}
     </TodoContext.Provider>
   );

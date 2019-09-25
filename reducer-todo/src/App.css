@@ -6,6 +6,11 @@
   height: 40vmin;
 }
 
+.completed {
+  color: red;
+  text-decoration: line-through;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
